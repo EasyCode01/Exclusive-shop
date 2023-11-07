@@ -47,7 +47,7 @@ export default function NewArrival() {
                 </div>
 
                 <div className="flex flex-col gap-2 pl-8 pb-8 z-10">
-                  <h3 className="text-xl text-white">Women's Collection</h3>
+                  <h3 className="text-xl text-white">Women Collection</h3>
 
                   <div>
                     <p className="text-white text-sm">

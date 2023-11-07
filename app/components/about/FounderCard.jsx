@@ -6,11 +6,11 @@ export default function FounderCard() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const numVisibleCards = 3;
 
-  const nextSlide = () => {
-    setCurrentIndex((currentIndex + 1) % founders.length);
-  };
-
   useEffect(() => {
+    const nextSlide = () => {
+      setCurrentIndex((currentIndex + 1) % founders.length);
+    };
+
     const intervalId = setInterval(nextSlide, 5000);
     return () => clearInterval(intervalId);
   }, [currentIndex]);
