@@ -55,19 +55,19 @@ export const founders = [
     image: "/images/tom-cruise.png",
     role: "Founder & Chairman",
     name: "Tom Cruise",
-    icons: [<Twitter />, <Instagram />, <LinkedIn />],
+    icons: ["Twitter", "Instagram", "LinkedIn"],
   },
   {
     image: "/images/emma-watson.png",
     role: "Managing Director",
     name: "Emma Watson",
-    icons: [<Twitter />, <Instagram />, <LinkedIn />],
+    icons: ["Twitter", "Instagram", "LinkedIn"],
   },
   {
     image: "/images/will-smith.png",
     role: "Product Designer",
     name: "Will Smith",
-    icons: [<Twitter />, <Instagram />, <LinkedIn />],
+    icons: ["Twitter", "Instagram", "LinkedIn"],
   },
 ];
 
